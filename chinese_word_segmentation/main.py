@@ -25,7 +25,7 @@ class ChineseWordSegmentation:
         states = [self.corpus.indexTag[state] for state in pred_tags]
 
         print("\n" + observations)
-        print("/".join(states)) 
+        print("/".join(states))
 
 
 if __name__ =='__main__':
